@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./header.css";
 const Header = () => {
   const [selected, setSelected] = useState<boolean[]>([
-    false,
+    true,
     false,
     false,
     false,
