@@ -1,3 +1,13 @@
+@media only screen and (max-width: 844px) {
+    .photoContainer{
+        display: none;
+    }
+  }
+  .photo{
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+  }
 .photoContainer{
     background-image: url('../../assets/portrait.png');
     width: 500px;
@@ -5,4 +15,5 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    animation: show 1s forwards;
 }

@@ -1,0 +1,41 @@
+@keyframes show {
+    from {transform: translateY(0px);}
+    to {transform: translateY(5px);}
+  }
+@keyframes showText {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+@keyframes hideText {
+    from {opacity: 1;}
+    to {opacity: 0;}
+  }
+.introContainer{
+    width: 50em;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.introContainer>.introTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Lobster', cursive;
+    font-size: 72px;
+    animation: show 1s forwards;
+}
+
+.introContainer>p{
+    text-align: left;
+    animation: show 1s forwards;
+}
+.introContainer>p button{
+    color: #FFC300;
+}
+.showText {
+    animation: showText 0.5s forwards;
+}
+.hideText{
+    animation: hideText 0.5s forwards;
+}
