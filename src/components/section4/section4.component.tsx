@@ -2,7 +2,7 @@ import './section4.css';
 
 const Section4 = () =>{
     return(
-        <div className="section " id='Contact'>Contact</div>
+        <div className="section scroll-smooth" id='Contact'>Contact</div>
     )
 };
 
