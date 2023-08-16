@@ -7,7 +7,7 @@ const Introduction = () => {
     <div className="introContainer">
       <div className="introTitle">
         <h1>Hello I'm Abdullah</h1>
-        <h1>I'm a developer</h1>
+        <h1>I'm a <h1 style={{color: "#FFC300", display: 'inline'}}>Web</h1> developer</h1>
       </div>
       <p>
         in the ancient city of Bethlehem, I came into this world in the year
